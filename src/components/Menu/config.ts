@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.saltswap.finance'
+    href: 'http://localhost:3000/'
   },
   {
     label: 'Exchange',
@@ -19,37 +19,42 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.saltswap.finance/farms'
+    href: 'http://localhost:3000/farms'
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://www.saltswap.finance/pools'
+    href: 'http://localhost:3000/pools'
   },
   {
     label: 'Oceans',
     icon: 'WaveIcon',
-    href: 'https://www.saltswap.finance/oceans',
+    href: 'http://localhost:3000/oceans',
   },
-  {
+ /* {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://www.saltswap.finance/lottery',
+    href: 'http://localhost:3000/lottery',
+  }, */
+  {
+    label: 'NFT',
+    icon: 'NftIcon',
+    href: 'http://dev.bitcoin.ne.kr',
   },
   {
-    label: 'Launchpad (IDOs)',
+    label: 'IDOs',
     icon: 'IdoIcon',
-    href: 'https://www.saltswap.finance/ido',
+    href: 'http://localhost:3000/ido',
   },
-  {
-    label: 'Audited By Certik ✅',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/saltswap',
-  },
+//  {
+//    label: 'Audited By Certik ✅',
+//    icon: 'AuditIcon',
+//    href: 'https://certik.org/projects/saltswap',
+//  },
   {
     label: 'Price Graph',
     icon: 'GraphIcon',
-    href: 'https://www.saltswap.finance/graph',
+    href: 'http://localhost:3000/graph',
   },
   {
     label: 'Listings',
@@ -57,22 +62,22 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/saltswap-finance',
+        href: 'http://cbdc.kr',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/saltswap',
+        href: 'http://cbdc.kr',
       },
       {
         label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/saltswap',
+        href: 'http://cbdc.kr',
       },
     ],
   },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
-  //   href: 'https://www.saltswap.finance/lottery'
+  //   href: 'http://localhost:3000//lottery'
   // },
   // {
   //   label: 'Info',
@@ -94,17 +99,17 @@ const config: MenuEntry[] = [
       // },
       {
         label: "Github",
-        href: "https://github.com/saltswap/",
+        href: 'http://cbdc.kr',
         icon: 'GithubIcon'
       },
       {
         label: "Docs",
-        href: "https://saltswap.gitbook.io/salt-swap",
+        href: 'http://cbdc.kr',
         icon: 'GitbookIcon'
       },
       {
         label: "Blog",
-        href: "https://saltswap.medium.com",
+        href: 'http://cbdc.kr',
         icon: 'MediumIcon'
       },
     ],
